@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
+}
+
+.App {
+	@apply min-h-screen font-mono;
+}
+
+.bounding-box {
+	@apply absolute flex flex-wrap justify-center cursor-pointer;
+	box-shadow: 0 0 0 3px #149df2 inset;
+}
